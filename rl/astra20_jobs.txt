@@ -1,0 +1,6 @@
+--split astra20 --out results/rl/base_astra20.jsonl
+--split astra20 --lags 3 --out results/rl/base_lag3_astra20.jsonl
+--ckpt runs/grpo_lag3/ckpt_00050 --split astra20 --lags 3 --out results/rl/grpo_lag3_50_astra20.jsonl
+--ckpt runs/grpo_v1/ckpt_00050 --split astra20 --out results/rl/grpo_v1_50_astra20.jsonl
+--ckpt runs/grpo_v1/ckpt_00100 --split astra20 --out results/rl/grpo_v1_100_astra20.jsonl
+--ckpt runs/grpo_v1/ckpt_00130 --split astra20 --out results/rl/grpo_v1_130_astra20.jsonl

@@ -1,0 +1,16 @@
+# Data, baselines, API evals (scripts/)
+pandas>=2.0
+numpy
+pyarrow
+scikit-learn
+lightgbm
+catboost
+xgboost
+openai
+# RL + local eval (rl/, scripts/eval_qwen_vllm.py), GPU env
+torch>=2.5
+transformers>=4.57   # Qwen3.5 (Qwen3_5ForCausalLM)
+peft
+safetensors
+vllm
+# plus a BioReasonCell checkout for bioreason_cell.rl.exact_policy (see README)

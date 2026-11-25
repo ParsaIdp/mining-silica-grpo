@@ -1,0 +1,3 @@
+--split val --thinking 1 --brief 1 --budget 2048 --temperature 1.0 --lags 3 --lag_iron 1 --out results/rl/base_think_b2048.jsonl
+--split val --thinking 1 --brief 1 --budget 4096 --temperature 1.0 --lags 3 --lag_iron 1 --out results/rl/base_think_b4096.jsonl
+--split val --thinking 1 --brief 1 --budget 6144 --temperature 1.0 --lags 3 --lag_iron 1 --out results/rl/base_think_b6144.jsonl

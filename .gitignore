@@ -1,0 +1,12 @@
+.env
+cluster.env
+.venv/
+__pycache__/
+*.pyc
+data/
+runs/
+logs/
+catboost_info/
+# large raw model outputs (kept locally); summaries are committed
+results/qwen35_4b_*.jsonl
+results/rl/

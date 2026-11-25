@@ -1,0 +1,2 @@
+--split val --thinking 1 --budget 12000 --temperature 1.0 --lags 3 --lag_iron 1 --brief 1 --out results/rl/base_think_len_brief.jsonl
+--split val --thinking 1 --budget 12000 --temperature 1.0 --lags 3 --lag_iron 1 --out results/rl/base_think_len.jsonl

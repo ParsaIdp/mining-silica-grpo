@@ -1,0 +1,10 @@
+model,MAE,RMSE,R2
+ridge Fe only,0.545,0.699,0.621
+ridge 3 assays,0.568,0.721,0.596
+ridge hourly means,0.525,0.679,0.642
+ridge all aggs,0.544,0.684,0.637
+huber hourly means,0.551,0.713,0.605
+spline-additive (GAM-like) means,0.664,0.812,0.488
+"lightgbm TS-CV tuned {'num_leaves': 4, 'learning_rate': 0.05, 'n_estimators': 200, 'min_child_samples': 80}",0.547,0.694,0.626
+ensemble ridge+lgbm,0.502,0.647,0.675
+[ceiling] ridge fit IN-SAMPLE on test,0.443,0.575,0.744
